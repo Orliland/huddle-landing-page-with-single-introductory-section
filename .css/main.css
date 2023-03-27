@@ -26,6 +26,7 @@ body {
 .header {
   display: grid;
   justify-content: center;
+  align-content: start;
   min-height: 100%;
   margin: 0 auto;
   padding: 4rem;
@@ -37,4 +38,26 @@ body {
 
 .main__img {
   max-width: 100%;
+  margin: 7rem 0 0;
+}
+
+.author {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  padding: 0.2rem 1rem;
+  font-family: var(--poppins);
+  border-start-start-radius: 0.6rem;
+}
+
+.author a {
+  color: #000;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .author {
+    font-size: 1.2rem;
+  }
 }
