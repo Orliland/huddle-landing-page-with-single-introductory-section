@@ -25,10 +25,16 @@ body {
 
 .header {
   display: grid;
-  place-content: center;
+  justify-content: center;
   min-height: 100%;
+  margin: 0 auto;
+  padding: 4rem;
 }
 
-img {
+.logo__img {
+  width: 12rem;
+}
+
+.main__img {
   max-width: 100%;
 }
